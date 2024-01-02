@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  <div class="mainsection">
+    <div class="left-side">
+      <img src="Frame 1.png" alt="" class="main-logo">
+    </div>
+    <div class="right-side">
+      <div class="back-button">
+        <img src="arrow_back_ios_24px.png" alt="">
+        <button class="b-btn" onclick="goBack()">Back</button>
+      </div>
+      <form>
+        <h2>Account Login</h2>
+        <p>If you are already a member you can login with your email address and password.</p>
+
+        <label for="Email" style="font-weight: 500;">Email:</label>
+        <input class="input-form" type="email" id="email" name="Email" required>
+        <br><br>
+        <label for="Password" style="font-weight: 500;">Password:</label>
+        <input class="input-form" type="password" id="Password" name="Password" required>
+        <div class="remeber-me">
+          <label for="rememberMe" style="font-weight: 500;font-size: 16px;">
+            <input type="checkbox" id="rememberMe" name="rememberMe">
+            Remeber me <img src="Hide.png" alt="" style="float: right;"></label>
+        </div>
+        <button type="submit" class="submit-button" style="margin-top: 50px;">Login</button>
+        <br>
+        <div class=bottom_text>
+          <p class=bottom_para style="text-align: center;">
+            Don't have an account?<a href="#">Sign up here</a>
+          </p>
+          <br>
+          <button class="google-logo" type="submit">
+            <img src="Group 3062.png" alt="Reset Icon">
+        </button>
+        </div>
+      </form>
+      <br>
+      </div>
+    </div>
+</body>
+</html>

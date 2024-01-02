@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Accstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Account Signup</title>
+</head>
+<body>
+    <section class=mainsection>
+      <div class="left-side">
+        <img src="Frame 1.png" alt="" class="main-logo">
+      </div>
+      <div class="right-side">
+        <div class="back-button">
+          <img src="arrow_back_ios_24px.png" alt="">
+          <button class="b-btn" onclick="goBack()">Back</button>
+        </div>
+        <div class="Account-form">
+          <form>
+            <h2>Account Signup</h2>
+            <p>Become a member and enjoy exclusive promotions.</p>
+            <label for="Name" style="font-weight: 500;">Name</label>
+            <input class="input-form" type="Name" id="Name" name="Name" required>
+            <label for="Email" style="font-weight: 500;">Email:</label>
+            <input class="input-form" type="email" id="email" name="Email" required>
+            <label for="Password" style="font-weight: 500;">Password:</label>
+            <input class="input-form" type="password" id="Password" name="Password" required>
+            <label for="Password" style="font-weight: 500;">Confirm Password:</label>
+            <input class="input-form" type="password" id="ConfirmPassword" name="ConfirmPassword" required>
+            <p>choose Account type</p>
+            <ul class="checklist">
+              <li class="checklist-item">
+                  <label class="checklist-label" for="buyer">
+                      <input type="radio" id="buyer" name="accountType" value="buyer" class="checklist-radio">
+                      Buyer
+                  </label>
+              </li>
+              <li class="checklist-item">
+                  <label class="checklist-label" for="seller">
+                      <input type="radio" id="seller" name="accountType" value="seller" class="checklist-radio">
+                      Seller
+                  </label>
+              </li>
+              <li class="checklist-item">
+                  <label class="checklist-label" for="serviceProvider">
+                      <input type="radio" id="serviceProvider" name="accountType" value="serviceProvider" class="checklist-radio">
+                      Service Provider
+                  </label>
+              </li>
+          </ul>
+          <div class="remeber-me">
+            <label for="rememberMe" style="font-weight: 500;font-size: 16px;">
+              <input type="checkbox" id="rememberMe" name="rememberMe">
+              Are you agree with <a href="#">terms & conditions</a></label>
+          </div>
+          <button type="submit" class="submit-button" style="margin-top: 50px;">Account Register</button><br>
+          <br>
+          <button class="google-logo" type="submit">
+            <img src="Group 3062.png" alt="Reset Icon">
+        </button>
+          </form>
+          <br>
+          <div class=bottom_text>
+            <p class=bottom_para style="text-align: center; float: right;" >
+              Don't have an account?<a href="#">Sign up here</a>
+            </p>
+          </div>
+            </div>
+          </div>
+      </section>
+</body>
+</html>
