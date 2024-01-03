@@ -1,12 +1,12 @@
 .sidebar-main-container {
     width: 271px;
+    height: 1517px;
 background-color: #127CC0;
 }
 .heading-container {
   display: flex;
   align-items: center; /* Centers items vertically */
   justify-content: space-between;
-  border: solid red; 
   width: 65%;
   margin-left: 30px;
   justify-self: center;
@@ -35,8 +35,6 @@ background-color: #127CC0;
   .sidebar-body-container {
    display: flex;
    flex-direction: column;
-   border: solid red;
-   border-color: red;
    margin-top: 60px;
   }
   .sidebar-body-content {
@@ -49,4 +47,24 @@ font-weight:700;
 font-size:16px ;
 line-height: 24px;
 color: #FFFFFF;
+cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .sidebar-main-container {
+      width: 100%; 
+      height: auto;
+    }
+  
+    .heading-container {
+      width: 90%;
+      margin-left: 5%; 
+    }
+  
+    .logo {
+      margin-left: 5%; 
+    }
+  
+    .sidebar-body-content {
+      margin-left: 5%; 
+    }
   }

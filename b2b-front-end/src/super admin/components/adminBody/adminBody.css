@@ -262,3 +262,28 @@ width: 80%;
   text-align: center;
   color: #8E95A9;
   }
+  @media (max-width: 768px) {
+    .admin-body-container {
+      width: 90%;
+      margin: 20px auto; 
+    }
+  
+    .dashboard-heading {
+      font-size: 20px; 
+      margin-left: 0; 
+    }
+  
+    .total-count-inner-container {
+      width: 100%; 
+      margin-left: 0; 
+      margin-top: 10px;
+      padding: 10px;
+    }
+  
+    .revenue-state-main-container {
+      width: 90%; 
+      margin: 20px auto; 
+      padding: 20px; 
+    }
+  
+  }

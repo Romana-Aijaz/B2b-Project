@@ -22,7 +22,7 @@ function AdminBody() {
             <div className='total-graph-container'>
                 <div className='graph-heading'>+22%</div>
                 <div className='graph-icon'>
-                <img src={Vector} />
+                <img src={Vector} alt='vector'/>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ function AdminBody() {
             <div className='total-graph-container'>
                 <div className='graph-heading'>+22%</div>
                 <div className='graph-icon'>
-                <img src={Vector} />
+                <img src={Vector} alt='vector' />
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@ function AdminBody() {
             <div className='total-graph-container'>
                 <div className='graph-heading'>+22%</div>
                 <div className='graph-icon'>
-                <img src={Vector} />
+                <img src={Vector} alt='vector'/>
                 </div>
             </div>
         </div>

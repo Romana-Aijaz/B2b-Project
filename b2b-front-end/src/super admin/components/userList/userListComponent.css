@@ -1,0 +1,110 @@
+.userlist-body-container {
+    width: 75%;
+    margin-top: 54px;
+    margin-left: 82px;
+}
+.userList-heading {
+    width: 129px;
+    height: 36px;
+    margin-top: 54px;
+    left: 382px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-left: 20px;
+}
+.userlist-header-container {
+    display: flex;
+}
+.search-input-container {
+    width: 250px;
+    height: 30px;
+    margin-top: 65px;
+    margin-left: 900px;
+    border-radius: 10px;
+    display: flex;
+    background-color:  #F9FBFF;
+}
+.search-input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -1%;
+    border: 1px solid transparent; /* Set initial border to be transparent */
+    background-color:  #F9FBFF;
+    color: #B5B7C0;
+  }
+  
+  /* Remove border when the input is focused */
+  .search-input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: transparent; /* Set border color to transparent on focus */
+  }
+  .user-heading-container {
+    width: 100%;
+  height: 24px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  }
+  .user-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -1%;
+    color: #B5B7C0;
+  }
+  .divider {
+    width: 100%;
+  margin-top: 10px;
+  left: 314px;
+  border: 1px solid #EEEEEE; /* Border of 1px on all sides with color #EEEEEE */
+  transform: rotate(0deg); /* Rotation of 0 degrees */
+  }
+  .active-status {
+    width: 80px; 
+    height: 29px; 
+    border-radius: 4px; 
+    padding: 4px 12px; 
+    margin-bottom: 10px; 
+    background-color: #B2CDFF; 
+    opacity: 0.38; 
+    font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -1%;
+  color: #026bab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  }
+  .user-value {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -1%;
+    color: #292D32;
+  }
+  @media (max-width: 768px) {
+    .userlist-body-container,
+    .userList-heading,
+    .userlist-header-container,
+    .search-input-container,
+    .search-input,
+    .user-heading-container,
+    .user-heading,
+    .divider,
+    .active-status,
+    .user-value {
+      width: 100%;
+      max-width: none;
+      margin: 0 10px;
+    }
+}
