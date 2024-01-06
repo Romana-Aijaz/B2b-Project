@@ -1,7 +1,7 @@
 .admin-body-container {
   width: 75%;
   margin-top: 54px;
-  margin-left: 82px;
+  margin-left: 370px;
 }
 .dashboard-heading {
     width: 129px;
@@ -21,7 +21,7 @@
     flex-direction: row;
 }
 .total-count-inner-container {
-  width: 280px;
+  width: 470px;
   height: 108px;
   display: flex;
   flex-direction: row;
@@ -33,7 +33,7 @@
   padding: 23px;
 }
 .total-graph-container {
-    margin-left: 80px;
+    margin-left: 250px;
 }
 .total-heading {
     width: 76px;
@@ -144,10 +144,10 @@ border-radius: 5px;
     margin-left: 20px;
     width: 50%;
     height: 500.21px;
-     border-radius: 5px;
+    border-radius: 5px;
    background-color: #FFFFFF;
-box-shadow: 0px 8px 32px 0px rgba(51, 38, 174, 0.08);
-padding: 23px;
+   box-shadow: 0px 8px 32px 0px rgba(51, 38, 174, 0.08);
+   padding: 23px;
 }
 .revenue-device-heading {
   height: 22px;
@@ -262,28 +262,61 @@ width: 80%;
   text-align: center;
   color: #8E95A9;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     .admin-body-container {
       width: 90%;
       margin: 20px auto; 
+      margin-left: 50px;
     }
   
     .dashboard-heading {
       font-size: 20px; 
       margin-left: 0; 
     }
+    .total-count-main-container {
+      display: flex;
+      flex-direction: column;
+  }
   
     .total-count-inner-container {
-      width: 100%; 
+      display: flex;
+      width: fit-content; 
       margin-left: 0; 
       margin-top: 10px;
       padding: 10px;
     }
+    .total-graph-container {
+     margin-left: 100px;
+  }
   
     .revenue-state-main-container {
       width: 90%; 
       margin: 20px auto; 
       padding: 20px; 
+      overflow-x: auto;
+    }
+    .footer-revenue-main-container {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .revenue-detail-container {
+        width: 80%;
+        height: 50.01px;
+        top: 306.57px;
+        left: 84px;
+        display: flex;
+        flex-direction: column;
+      }
+      .footer-revenue-inner-container{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 50%;
+        height: 600.21px;
+        border-radius: 5px;
+       background-color: #FFFFFF;
+       box-shadow: 0px 8px 32px 0px rgba(14, 14, 14, 0.08);
+       padding: 23px;
     }
   
   }

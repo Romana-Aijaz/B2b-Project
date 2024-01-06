@@ -1,7 +1,7 @@
 .productList-body-container {
     width: 75%;
     margin-top: 54px;
-    margin-left: 82px;
+    margin-left: 370px;
   }
   
   .productlist-heading {
@@ -151,25 +151,18 @@
   }
   
   /* Media Query for Responsive Design */
-  @media (max-width: 768px) {
-    .productList-body-container,
-    .productlist-heading,
-    .productlist-body-inner-container,
-    .category-btn-container,
-    .productlist-heading-container,
-    .productlist-heading-value,
-    .product-divider,
-    .category-box-container,
-    .category-box,
-    .category-upper-box,
-    .menu-text,
-    .category-lower-box,
-    .edit-btn,
-    .add-category-box,
-    .add-icon,
-    .add-category-text {
+  @media (max-width: 508px) {
+    .productList-body-container
+    {
       width: 100%;
       max-width: none;
       margin: 0 10px;
+    }
+    .productlist-body-inner-container {
+      width: 100%;
+      height: 2000px;
+      margin-top: 50px;
+      left: 290px;
+      background-color: #FCFCFC;
     }
   }

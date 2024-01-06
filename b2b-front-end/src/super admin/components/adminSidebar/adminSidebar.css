@@ -2,13 +2,16 @@
     width: 271px;
     height: 1517px;
 background-color: #127CC0;
+position: fixed; 
+
 }
 .heading-container {
   display: flex;
-  align-items: center; /* Centers items vertically */
+  align-items: center; 
   justify-content: space-between;
   width: 65%;
   margin-left: 30px;
+  margin-top: 24px;
   justify-self: center;
 }
 .logo {
@@ -35,7 +38,7 @@ background-color: #127CC0;
   .sidebar-body-container {
    display: flex;
    flex-direction: column;
-   margin-top: 60px;
+   margin-top: 40px;
   }
   .sidebar-body-content {
     width:86px;
@@ -53,17 +56,16 @@ cursor: pointer;
     .sidebar-main-container {
       width: 100%; 
       height: auto;
+      position: fixed; 
+      overflow-y: visible;
     }
-  
     .heading-container {
       width: 90%;
       margin-left: 5%; 
     }
-  
     .logo {
       margin-left: 5%; 
     }
-  
     .sidebar-body-content {
       margin-left: 5%; 
     }
