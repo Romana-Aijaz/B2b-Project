@@ -3,7 +3,7 @@ import Dashboard from "./super admin/pages/dashboard/Dashboard";
 import UserList from "./super admin/pages/userList/UserList";
 import ProductList from "./super admin/pages/productList/ProductList";
 import Subscription from "./super admin/pages/subscription/Subscription";
-
+//app
 function App() {
   return (
     <div className="App">
