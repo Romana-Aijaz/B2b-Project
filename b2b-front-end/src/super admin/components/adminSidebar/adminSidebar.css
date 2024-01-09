@@ -1,6 +1,7 @@
 .sidebar-main-container {
-    width: 271px;
-    height: 1517px;
+  width: 15%;
+    min-width: 250px;
+    height: 100vh;
 background-color: #127CC0;
 position: fixed; 
 
